@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #0f0f0f;
+}
+
+* {
+  font-family: "Sen", sans-serif;
+}
