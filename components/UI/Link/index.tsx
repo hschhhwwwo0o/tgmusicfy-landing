@@ -12,13 +12,13 @@ const Link: FunctionComponent = () => {
         className="text-pink-500 text-base lg:text-lg underline group pointer-events-auto"
       >
         <span className="group-hover:opacity-75 transition-opacity duration-200">G</span>
-        <span className="group-hover:opacity-75 transition-opacity duration-500">o</span>
+        <span className="group-hover:opacity-50 transition-opacity duration-500">o</span>
         <span className="group-hover:opacity-75 transition-opacity duration-300"> </span>
         <span className="group-hover:opacity-75 transition-opacity duration-1000">t</span>
-        <span className="group-hover:opacity-75 transition-opacity duration-500">o</span>
+        <span className="group-hover:opacity-50 transition-opacity duration-500">o</span>
         <span className="group-hover:opacity-75 transition-opacity duration-300"> </span>
         <span className="group-hover:opacity-75 transition-opacity duration-700">b</span>
-        <span className="group-hover:opacity-75 transition-opacity duration-75">o</span>
+        <span className="group-hover:opacity-40 transition-opacity duration-75">o</span>
         <span className="group-hover:opacity-75 transition-opacity duration-300">t</span>
       </motion.a>
     </>
