@@ -9,7 +9,7 @@ const Link: FunctionComponent = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.5 }}
-        className="text-pink-500 text-lg underline group pointer-events-auto"
+        className="text-pink-500 text-base lg:text-lg underline group pointer-events-auto"
       >
         <span className="group-hover:opacity-75 transition-opacity duration-200">G</span>
         <span className="group-hover:opacity-75 transition-opacity duration-500">o</span>

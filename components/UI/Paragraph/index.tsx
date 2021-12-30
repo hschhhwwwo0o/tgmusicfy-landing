@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Paragraph: FunctionComponent<{ children: ReactNode }> = ({ children }) => {
   return (
-    <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1.3 }} className="text-white text-lg">
+    <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1.3 }} className="text-white text-base lg:text-lg">
       {children}
     </motion.p>
   );

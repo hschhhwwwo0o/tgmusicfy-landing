@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Header1: FunctionComponent = () => {
   return (
     <>
-      <h1 className="text-white text-10xl">
+      <h1 className="text-white text-3xl lg:text-10xl">
         <motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.8, delay: 1.5 }}>
           T
         </motion.span>
