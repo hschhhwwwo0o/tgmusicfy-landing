@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <>
       <main className="w-screen h-screen flex items-center justify-center pointer-events-none">
         <div className="relative -top-5 flex flex-col gap-5 items-center">
-          <div className="flex flex-row items-center gap-5 lg:gap-10">
+          <div className="flex flex-row items-center gap-3 lg:gap-10">
             <Logo />
             <div className="relative top-1 lg:top-2">
               <Header1 />
