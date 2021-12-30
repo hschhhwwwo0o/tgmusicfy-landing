@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Logo](md/logo.jpg "Logo")
 
-## Getting Started
+## @TGMusicfy
 
-First, run the development server:
+**Go to [bot]**
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**Deployed thanks to [Heroku] and [New-Relic]**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bots are special Telegram accounts designed to handle messages automatically. Users can interact with bots by sending them command messages in private or group chats. These accounts serve as an interface for code running somewhere on your server.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Minimalistic Telegram music search bot written in TypeScript and based on Telegraf and Express JS.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+The music search is based on the results of the **[service]**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Tech Stack
 
-## Learn More
+- **[NodeJS]** - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **[Webpack]** - Module assembler.
+- **[Telegraf]** - Modern Telegram Bot Frameword for NodeJS.
+- **[Axios]** - Promise based HTTP client for the browser and node.js.
+- **[Cheerio]** - Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure.
+- **[TypeScript]** - Is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-To learn more about Next.js, take a look at the following resources:
+<br />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with love ❤️
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I'm on Telegram: **@ssandry0** \
+I'm on Behance: **https://www.behance.net/aftertaste** \
+I'm on Dribbble: **https://dribbble.com/ssandry0**
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[nodejs]: https://nodejs.org/en/
+[telegraf]: https://telegraf.js.org/v3#/
+[heroku]: https://dashboard.heroku.com/
+[new-relic]: https://newrelic.com/
+[axios]: https://newrelic.com/
+[webpack]: https://webpack.js.org/
+[service]: https://downloadmusicvk.ru/
+[cheerio]: https://www.npmjs.com/package/cheerio
+[typescript]: https://www.typescriptlang.org/
+[expressjs]: https://www.typescriptlang.org/
+[bot]: https://t.me/tmusicfy_test_bot
