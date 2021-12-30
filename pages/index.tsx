@@ -8,12 +8,12 @@ import Link from "../components/UI/Link";
 const Home: NextPage = () => {
   return (
     <>
-      <main className="w-screen h-screen flex items-center justify-center">
+      <main className="w-screen h-screen flex items-center justify-center pointer-events-none">
         <div className="relative -top-5 flex flex-col gap-5 items-center">
           <div className="flex flex-row items-center gap-10">
             <Logo />
             <div className="relative top-2">
-              <Header1 text="TGMusicfy" />
+              <Header1 />
             </div>
           </div>
           <div className="max-w-3xl text-center">
