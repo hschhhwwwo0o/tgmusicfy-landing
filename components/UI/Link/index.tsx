@@ -5,7 +5,7 @@ const Link: FunctionComponent = () => {
   return (
     <>
       <motion.a
-        href="https://t.me/tmusicfy_test_bot"
+        href="https://t.me/tgmusicfy_bot"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.5 }}
